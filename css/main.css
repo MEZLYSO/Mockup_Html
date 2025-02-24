@@ -50,6 +50,7 @@ section {
 
 #banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.637)),url("https://wallpapers.com/images/featured/corriendo-wl9pg3zeygysq0ps.jpg");
+    
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
