@@ -107,6 +107,11 @@ section {
     #logo h2{
         display: none;
     }
+    #items_banner #title{
+        font-size: 25px;
+        font-style: bold;
+    }
+    
 }
 
 #items_banner button{
