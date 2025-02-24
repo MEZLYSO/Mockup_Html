@@ -182,9 +182,12 @@ section {
 
 }
 
+#sub{
+    font-size: 50px;
+}
+
 .img1{
     background-image:url("https://i.blogs.es/b254b3/istock_000047675432_small/1366_2000.jpg");
-    filter: opacity(50%);
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
@@ -194,7 +197,6 @@ section {
 
 .img2{
     background-image: url("https://deportes.usal.es/wp-content/uploads/2021/09/Corredores2021.jpg");
-    filter: opacity(50%);
     background-position-x: center;
     background-position-y: center;
     background-size: cover; 
@@ -202,7 +204,6 @@ section {
 
 .img3{
     background-image: url("https://manolo-running-coach.com/wp-content/uploads/2021/11/nivel-de-corredores.jpg");
-    filter: opacity(50%);
     background-position-x: center;
     background-position-y: center;
     background-size: cover; 
@@ -373,6 +374,20 @@ border-bottom-right-radius: 10px;
 color: white;
 background-color:#25d366;
 
+}
+
+.title_sec{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    border-top: 1px solid ;
+    padding-top: 50px;
+    margin: 20px 50px 0px 50px;
+}
+
+#sec3 #box{
+    border: none;
+    box-shadow: 2px 2px 8px 0 rgb(83, 143, 255), 4px 4px 16px 0 #d66, 0px 0px 24px 2px rgb(221, 197, 102);
 }
 
 footer{
