@@ -104,6 +104,9 @@ section {
     #items_banner #text{
         font-size: 15px;
     }
+    #logo h2{
+        display: none;
+    }
 }
 
 #items_banner button{
@@ -218,4 +221,9 @@ h2{
     background-color: white;
     color: black;
     border: solid 1px black;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
 }
