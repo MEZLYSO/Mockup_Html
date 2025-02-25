@@ -390,6 +390,10 @@ background-color:#25d366;
     box-shadow: 2px 2px 8px 0 rgb(83, 143, 255), 4px 4px 16px 0 #d66, 0px 0px 24px 2px rgb(221, 197, 102);
 }
 
+h3{
+    color: white;
+}
+
 footer{
     display: flex;
     justify-content: center;
