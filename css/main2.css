@@ -168,3 +168,65 @@ p a{
     text-decoration: none;
     color: aliceblue;
 }
+
+/* Barra de iconos */
+
+.icon-bar{
+
+    position: fixed;
+    top: 40%;
+    left: 0;
+    z-index: 1;
+
+}
+
+.icon-bar a{
+
+display: block;
+text-align: center;
+padding: 14px;
+color: white;
+font-size: 16px;
+
+transition: all 0.3s ease;
+
+z-index: 99;
+
+}
+
+.icon-bar a:hover{
+
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.05);
+
+}
+
+.icon-bar .facebook{
+
+border-top-right-radius: 10px;
+color: white;
+background-color: #3B5998;
+
+}
+
+.icon-bar .twitter{
+
+color: white;
+background-color: #55ACEE;
+
+}
+
+.icon-bar .youtube{
+
+color: white;
+background-color: #bb0000;
+
+}
+
+.icon-bar .whatsapp{
+
+border-bottom-right-radius: 10px;
+color: white;
+background-color:#25d366;
+
+}
