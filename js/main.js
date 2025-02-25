@@ -9,3 +9,8 @@ elements.forEach((div)=>{
     window.addEventListener('resize',actualizarBanner);
 })
 
+const button = document.getElementById("btn")
+
+button.addEventListener("click",()=>{
+    location.href = "index2.html"
+})

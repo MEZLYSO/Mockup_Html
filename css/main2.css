@@ -1,0 +1,170 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*background: linear-gradient(to right, #8360c3, #2ebf91);*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.637)),url("https://wallpapers.com/images/featured/corriendo-wl9pg3zeygysq0ps.jpg");
+    
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Bold;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    background-color: rgba(0, 0, 0, 0.406);
+    backdrop-filter: blur(20px);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    
+}
+
+#logo{
+    display: flex;
+    width: 10px;
+    height: auto;
+    align-items: center;
+}
+
+#logo img{
+    margin: 5px 10px;
+    border-radius: 50px;
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.navigation h2{
+    color: white;
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+.navigation ul{
+    list-style: none;
+    margin: auto 10px;
+    padding: 0;
+    display: flex;
+    gap: 2px;
+    width: auto;
+}
+
+.navigation ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 6px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+    color: rgb(255, 200, 0);
+}
+
+.login-container {
+    margin-top: 90px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 450px;
+}
+
+.login-container h3{
+    color: white;
+    font-size: 35px;
+    justify-content: center;
+
+}
+
+.login-container .login-form img{
+    width: 30%;
+    height: auto;
+    border-radius: 20px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+}
+.input-group {
+    position: relative;
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group input {
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #00000000;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.input-group input::placeholder{
+    color: #313131d0;
+}
+
+.input-group input:valid{
+    background-color: rgba(2, 2, 2, 0);
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+button {
+    color: white;
+    font-family: Arial;
+    border: none;
+    padding: 15px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:#000000;
+    transition:0.3s;
+    width: 100%;
+}
+
+button:hover{
+    box-shadow: 1px 1px 10px rgb(238, 106, 106);
+    transform: scale(1.1);
+}
+p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+p a{
+    text-decoration: none;
+    color: aliceblue;
+}

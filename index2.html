@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.webp">
+    <!-- Libreria de animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="img/logo.webp" type="image/x-icon">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>RunApp</title>
+    <link rel="stylesheet" href="css/main2.css">
+</head>
+
+<body>
+    <div class="navigation">
+        <div id="logo">
+            <img src="img/logo.webp" alt="logo">
+            <h2>RunApp</h2>
+        </div>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+        </ul>
+    </div>
+
+    <div class="login-container" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <form class="login-form" id="loginForm">
+            <img src="img/logo.webp" alt="">
+            <h3>Inicia Sesion</h3>
+            <div class="input-group">
+                <input type="text" id="username" placeholder="Username" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+            <button type="submit">Ingresar</button>
+            <p>¿Aún no tiene una cuenta? <a href="Login.html">Registrarse</a></p>
+        </form>
+    </div>
+</body>
+<script>
+    AOS.init();
+</script>
+</html>
